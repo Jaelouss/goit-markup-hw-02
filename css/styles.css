@@ -22,7 +22,7 @@ body {
   color: #2e2f42;
 }
 
-.logo-studio2 {
+.logo-studio-footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -54,6 +54,10 @@ body {
   background: #404bbf;
 }
 
+.nav:focus {
+  color: #404bbf;
+}
+
 .address {
   font-weight: 400;
   font-size: 16px;
@@ -62,8 +66,10 @@ body {
   color: #434455;
   font-style: normal;
 }
-
-.address:hover {
+.address-link {
+  color: #434455;
+}
+.address-link:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -71,7 +77,7 @@ body {
   color: #404bbf;
 }
 
-.address:focus {
+.address-link:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -134,11 +140,16 @@ body {
 .team-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
+.team-box {
+  background-color: #ffffff;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -161,6 +172,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-work-header {
   font-weight: 500;
