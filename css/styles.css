@@ -96,6 +96,7 @@ body {
   letter-spacing: 0.02em;
   color: #fff;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
 .main-page-button {
@@ -117,6 +118,10 @@ body {
   cursor: pointer;
 }
 
+.main-page-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 .descr-header {
   font-weight: 500;
   font-size: 20px;
@@ -147,9 +152,10 @@ body {
   text-transform: capitalize;
 }
 
-.team-box {
+.team-box-li {
   background-color: #ffffff;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
